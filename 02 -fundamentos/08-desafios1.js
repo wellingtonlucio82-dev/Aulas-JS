@@ -17,20 +17,20 @@ let pessoaObjeto = {
   idade: 28,
 };
 console.log(pessoaObjeto);
-console.log(pessoa.nome);
-console.log(pessoa.idade);
-console.log(pessoa.profissao);
+console.log(pessoaObjeto.nome);
+console.log(pessoaObjeto.idade);
+console.log(pessoaObjeto.profissao);
 
 //desafio 04
 //obejetos e manipulação de objetos (Parte 2):
-pessoa.hobies = ["Programação", "Música", "Esportes"];
-console.log(pessoa);
-console.log(pessoa.hobies);
+pessoaObjeto.hobies = ["Futebol", "Música", "jogos online"];
+console.log(pessoaObjeto);
+console.log(pessoaObjeto.hobies);
 
 //desafio 05
 let media = 6;
-if (média >= 6 && média <= 10) {
+if (media >= 6 && media <= 10) {
   console.log("o aluno esta aprovado.");
-} else if (média >= 0 && média < 6) {
+} else if (media >= 0 && media < 6) {
   console.log("o aluno esta reprovado.");
 }
